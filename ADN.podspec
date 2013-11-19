@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.author       = { "lengocduy" => "duyln@vng.com.vn" }
   s.platform     = :ios, '5.0'
   s.source       = { :git => "https://github.com/lengocduy/ADN.git", :commit => "937417dc861a80c4a8ed53fbf4a1675904fb66c3" }
-  s.source_files  = 'ADN/**/*.{h,m}'
+  s.source_files  = 'ADN/*.{h,m}'
   s.requires_arc = true
 end
