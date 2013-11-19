@@ -21,6 +21,8 @@
 		4F062C83183B11C300548728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F062C65183B11C300548728 /* UIKit.framework */; };
 		4F062C8B183B11C300548728 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F062C89183B11C300548728 /* InfoPlist.strings */; };
 		4F062C8D183B11C300548728 /* ADNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F062C8C183B11C300548728 /* ADNTests.m */; };
+		E35D4FA2183B262B008D23D7 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = E35D4FA1183B262B008D23D7 /* placeholder.png */; };
+		E35D4FA5183B3C93008D23D7 /* Celllistapp.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D4FA4183B3C93008D23D7 /* Celllistapp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		4F062C88183B11C300548728 /* ADNTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNTests-Info.plist"; sourceTree = "<group>"; };
 		4F062C8A183B11C300548728 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F062C8C183B11C300548728 /* ADNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNTests.m; sourceTree = "<group>"; };
+		E35D4FA1183B262B008D23D7 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		E35D4FA3183B3C93008D23D7 /* Celllistapp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Celllistapp.h; sourceTree = "<group>"; };
+		E35D4FA4183B3C93008D23D7 /* Celllistapp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Celllistapp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,8 @@
 				4F062C73183B11C300548728 /* Main.storyboard */,
 				4F062C76183B11C300548728 /* ViewController.h */,
 				4F062C77183B11C300548728 /* ViewController.m */,
+				E35D4FA3183B3C93008D23D7 /* Celllistapp.h */,
+				E35D4FA4183B3C93008D23D7 /* Celllistapp.m */,
 				4F062C79183B11C300548728 /* Images.xcassets */,
 				4F062C68183B11C300548728 /* Supporting Files */,
 			);
@@ -126,6 +133,7 @@
 		4F062C68183B11C300548728 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E35D4FA1183B262B008D23D7 /* placeholder.png */,
 				4F062C69183B11C300548728 /* ADN-Info.plist */,
 				4F062C6A183B11C300548728 /* InfoPlist.strings */,
 				4F062C6D183B11C300548728 /* main.m */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F062C7A183B11C300548728 /* Images.xcassets in Resources */,
+				E35D4FA2183B262B008D23D7 /* placeholder.png in Resources */,
 				4F062C6C183B11C300548728 /* InfoPlist.strings in Resources */,
 				4F062C75183B11C300548728 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F062C78183B11C300548728 /* ViewController.m in Sources */,
+				E35D4FA5183B3C93008D23D7 /* Celllistapp.m in Sources */,
 				4F062C72183B11C300548728 /* AppDelegate.m in Sources */,
 				4F062C6E183B11C300548728 /* main.m in Sources */,
 			);
@@ -460,6 +470,7 @@
 				4F062C92183B11C300548728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F062C93183B11C300548728 /* Build configuration list for PBXNativeTarget "ADNTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				4F062C95183B11C300548728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

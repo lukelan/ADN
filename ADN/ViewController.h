@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource,UIScrollViewDelegate>
+@property (strong, nonatomic) IBOutlet UISegmentedControl *Segment;
+@property (strong, nonatomic) IBOutlet UITableView *Tableviewlistapp;
+@property float getContentOffsetseg1;
+@property float getContentOffsetseg2;
+@property float getContentOffsetseg3;
+
+
+- (IBAction)btsegemented:(id)sender;
 
 @end
